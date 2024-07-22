@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;    
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.card {
+  border-top: -10%;
+  width: 250%;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.icon {
+  width: 35%;
+  height: 50px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 45px;
+}
+
+.card.instagram {
+  background-color: #ff0084;
+  color: #fff;
+  border: #ff0084;
+  height: 305px;
+}
+
+  .buttons{
+               background-color: white;
+               color: #ff0084;
+               border: #fff;
+              height: 45px;
+              cursor: pointer;
+              border-radius: 50px;
+              padding: 10px 40px;
+              border: none;
+              text-align: center;
+  }
+
+  .icons{
+    width: 35%;
+  height: 50px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  }
